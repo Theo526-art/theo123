@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    overflow: scroll;
+}
+.menu_bar{
+    background-color: red;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+img{
+    background-color: white;
+    border-radius: 10px;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    margin-right: 230px;
+}
+.logo span{
+    color: gold;
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex ;
+
+}
+.menu_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.menu_bar ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+.menu_bar ul li a:hover{
+    color: red;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;
+    padding:10px;
+
+}
+.dropdown_menu{
+    display: none;
+}
+.menu_bar ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: red;
+}
+.menu_bar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+.menu_bar ul li:hover .dropdown_menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 13px;
+    padding-top: 3px;
+}
+.dropdown_menu-1{
+    display: none;
+}
+.dropdown_menu ul li:hover .dropdown_menu-1{
+    display: block;
+    position: absolute;
+    top:0;
+    left: 150px;
+    background-color: red;
+
+}
+.bbox{
+     height: 100vh;
+     background-image: url("/project1/liverpool/vintage.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+     font-size: 35px;
+     display: flex;
+     justify-content: center;
+
+     
+}
+section {
+        background: #fff;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: #ffcc00;
+        
+
+    }
+    h2 {
+        color: #c8102e;
+        margin-bottom: 10px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    table th, table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+    table th {
+        background: #c8102e;
+        color: #fff;
+    }
+    footer {
+      background-color: #001f3f; /* Dark Blue */
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    footer a {
+      color: #00aced; /* Light Blue for Links */
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .social-icons {
+      margin: 10px 0;
+    }
+
+    .social-icons a {
+      margin: 0 5px;
+      font-size: 20px;
+    }
+
+    .social-icons a:hover {
+      color: #ffcc00; /* Gold on Hover */
+    }
+    .container h1{
+        margin-bottom: 20px;
+    }
+    .container p{
+        margin: 20px;
+        padding: 20px;
+    }
